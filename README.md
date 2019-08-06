@@ -2,5 +2,9 @@
 Dual Stream Shallow AlexNets
 ![framework](https://github.com/IcedDoggie/DSSN-MER/blob/master/Selection_666.png)
 
+## Pre-requisite tools
+https://github.com/heuritech/convnets-keras (for pre-trained alexnet)
+
 ## SSSN & DSSN Weights for Reported Results in Table 1. 
 https://drive.google.com/drive/folders/11e5Ezw-hZrNkjryDsfVa2TIg5lYGiRsh?usp=sharing
+
