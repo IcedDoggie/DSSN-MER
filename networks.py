@@ -49,7 +49,7 @@ from keras.layers import Multiply, Concatenate, Add
 # from utilities import LossHistory, record_loss_accuracy
 # from evaluationmatrix import fpr, weighted_average_recall, unweighted_average_recall
 from models import VGG_16, temporal_module, layer_wise_conv_autoencoder, layer_wise_autoencoder, convolutional_autoencoder, alexnet
-from models import tensor_reshape, attention_control, att_shape, l2_normalize, l2_normalize_output_shape, repeat_element_autofeat
+from models import tensor_reshape, l2_normalize, l2_normalize_output_shape, repeat_element_autofeat
 
 
 
