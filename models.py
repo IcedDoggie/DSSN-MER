@@ -166,22 +166,6 @@ def tensor_reshape(x):
 
 	return x
 
-def attention_control(args):
-	x, layer = args
-	batch = K.shape(x)[0]
-	att = K.reshape(x, (batch, 27, 27, 256)) # hardcode conv params ##### HARDCODED BATCH
-	att = K.transpose(att[:, :, :]) # original implementation
-	# att = K.transpose(att) # this is different compared to original implementation
-
-	att = K.mean(att, axis=0)
-	att = att / K.sum(att, axis=0)
-	att = K.repeat_elements(att, 96, axis=0)
-	att = K.reshape(att, (batch, 96, 27, 27)) ##### HARDCODED BATCH
-	return att
-
-def att_shape(input_shape):
-
-	return (input_shape[0][0], 96, 27, 27) # hardcode
 
 def l2_normalize(x):
 	x = K.l2_normalize(x, axis=-1)
