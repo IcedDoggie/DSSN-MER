@@ -11,6 +11,9 @@ https://github.com/heuritech/convnets-keras (for pre-trained alexnet)
 ## SSSN & DSSN Weights for Reported Results in Table 1. 
 https://drive.google.com/drive/folders/11e5Ezw-hZrNkjryDsfVa2TIg5lYGiRsh?usp=sharing
 
+## Image samples used:
+https://drive.google.com/file/d/1C9ZrHUDvCibuW2PR_o9OUKQmMZ--eGaW/view?usp=sharing
+
 ### Find you find the work useful, please cite as below:
 @inproceedings{khor2019dual,  
 title={Dual-stream Shallow Networks for Facial Micro-expression Recognition},  
@@ -20,6 +23,8 @@ pages={36--40},
 year={2019},  
 organization={IEEE}  
 }
+
+
 
 
 
