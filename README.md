@@ -1,6 +1,9 @@
 # Note:
 Please only email to me for inquiries, do not email to co-authors as they are faculty members or professors who have tonnes of work to do, emailing them may create burden for them. let's care for the well-being of our professors :) 
 
+# Environment
+Python 3.6, Keras 2, theano bleeding edge, 
+
 # Dual-Stream-Shallow-Networks-for-Facial-Micro-Expression-Recognition
 Dual Stream Shallow AlexNets
 ![framework](https://github.com/IcedDoggie/DSSN-MER/blob/master/Selection_666.png)
